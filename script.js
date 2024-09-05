@@ -7,8 +7,8 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     const correctPassword = 'eschizo'; // Substitua pela palavra específica
 
     if (password === correctPassword) {
-        alert('Acesso concedido!');
-        window.location.href = 'all.html';
+        alert('Acesso concedido!');Inconsistênciadiscord
+        window.location.href = 'main.html';
     } else {
         errorMessage.textContent = 'Palavra secreta incorreta. Tente novamente.';
     }

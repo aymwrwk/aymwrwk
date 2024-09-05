@@ -4,11 +4,11 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     const password = document.getElementById('password').value;
     const errorMessage = document.getElementById('error-message');
 
-    const correctPassword = 'eschizo'; // Substitua pela palavra específica
+    const correctPassword = 'aymwrwk'; // Substitua pela palavra específica
 
     if (password === correctPassword) {
-        alert('Acesso concedido!');Inconsistênciadiscord
-        window.location.href = 'main.html';
+        alert('Acesso concedido!');
+        window.location.href = 'chan1.html';
     } else {
         errorMessage.textContent = 'Palavra secreta incorreta. Tente novamente.';
     }

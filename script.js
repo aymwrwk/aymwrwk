@@ -4,7 +4,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     const password = document.getElementById('password').value;
     const errorMessage = document.getElementById('error-message');
 
-    const correctPassword = 'aymwrwk'; // Substitua pela palavra específica
+    const correctPassword = 'sick'; // Substitua pela palavra específica
 
     if (password === correctPassword) {
         alert('Acesso concedido!');
